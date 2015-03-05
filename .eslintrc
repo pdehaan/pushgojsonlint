@@ -4,4 +4,5 @@ env:
 rules:
   camelcase: 0
   no-unused-vars: [2, {args: none}]
+  no-use-before-define: [1, nofunc]
   quotes: [1, single]

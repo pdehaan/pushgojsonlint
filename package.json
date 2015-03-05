@@ -7,6 +7,7 @@
   "dependencies": {
     "hapi": "8.2.0",
     "joi": "6.0.0",
+    "promise": "6.1.0",
     "wreck": "5.2.0"
   },
   "devDependencies": {
