@@ -3,4 +3,5 @@ env:
 
 rules:
   camelcase: 0
+  no-unused-vars: [2, {args: none}]
   quotes: [1, single]

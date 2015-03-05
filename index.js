@@ -1,14 +1,7 @@
 'use strict';
 
-var Joi = require('joi');
+var server = require('./server');
 
-var schema = require('./schema');
-var data = require('./pushgo.json');
-
-Joi.validate(data, schema, function (err, value) {
-  if (err) {
-    throw err;
-  }
-  // Everything is valid, let's flood your console!
-  console.log(JSON.stringify(value, null, 2));
+server.start(function () {
+  console.log('Hapi server running at: %s', server.info.uri);
 });

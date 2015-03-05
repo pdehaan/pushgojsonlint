@@ -5,7 +5,9 @@
   "author": "Peter deHaan <peter@deseloper.com> (http://nodeexamples.com/)",
   "bugs": "https://github.com/pdehaan/pushgojsonlint/issues",
   "dependencies": {
-    "joi": "6.0.0"
+    "hapi": "8.2.0",
+    "joi": "6.0.0",
+    "wreck": "5.2.0"
   },
   "devDependencies": {
     "eslint": "0.15.1"
