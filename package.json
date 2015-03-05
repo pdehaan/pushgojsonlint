@@ -1,0 +1,26 @@
+{
+  "name": "joi-loads-schema",
+  "description": "Let's validate a pushgo.json file using Joi.",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (http://nodeexamples.com/)",
+  "bugs": "https://github.com/pdehaan/pushgojsonlint/issues",
+  "dependencies": {
+    "joi": "6.0.0"
+  },
+  "devDependencies": {
+    "eslint": "0.15.1"
+  },
+  "homepage": "https://github.com/pdehaan/pushgojsonlint",
+  "keywords": [
+    "joi",
+    "pushgo"
+  ],
+  "license": "WTFPL",
+  "main": "index.js",
+  "repository": "pdehaan/pushgojsonlint",
+  "scripts": {
+    "prestart": "npm test",
+    "start": "node index",
+    "test": "eslint ."
+  }
+}

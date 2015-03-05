@@ -1,0 +1,6 @@
+env:
+  node: true
+
+rules:
+  camelcase: 0
+  quotes: [1, single]
