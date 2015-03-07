@@ -6,6 +6,7 @@
   "bugs": "https://github.com/pdehaan/pushgojsonlint/issues",
   "dependencies": {
     "awstypes": "1.0.0",
+    "canonical-json": "0.0.4",
     "hapi": "8.2.0",
     "joi": "6.0.3",
     "nunjucks-hapi": "1.1.0",
