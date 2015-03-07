@@ -1,6 +1,5 @@
 'use strict';
 
-module.exports = [
-  require('./home'),
-  require('./lint')
-];
+var requireHapiRoutes = require('require-hapiroutes');
+
+module.exports = requireHapiRoutes(module);

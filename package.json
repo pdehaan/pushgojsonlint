@@ -5,9 +5,12 @@
   "author": "Peter deHaan <peter@deseloper.com> (http://nodeexamples.com/)",
   "bugs": "https://github.com/pdehaan/pushgojsonlint/issues",
   "dependencies": {
+    "awstypes": "1.0.0",
     "hapi": "8.2.0",
-    "joi": "6.0.0",
+    "joi": "6.0.3",
+    "nunjucks-hapi": "1.1.0",
     "promise": "6.1.0",
+    "require-hapiroutes": "0.1.7",
     "wreck": "5.2.0"
   },
   "devDependencies": {
@@ -22,6 +25,7 @@
   "main": "index.js",
   "repository": "pdehaan/pushgojsonlint",
   "scripts": {
+    "outdated": "npm outdated --depth 0",
     "prestart": "npm test",
     "start": "node index",
     "test": "eslint ."
